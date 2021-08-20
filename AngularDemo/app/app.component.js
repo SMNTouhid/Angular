@@ -20,10 +20,15 @@ var AppComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'my-app',
             //templateUrl: './app/app.component.html' 
-            template: "<div>\n        <h1>{{ pageHeader }}</h1>\n        //<h1>{{ 'Application Heading : ' + appHeading}}</h1>\n        //<p> Now I am in {{0*2+2*2*2-0/2}} lecture.</p>\n        //<p> My mother name is {{firstName + ' ' + lastName}}.</p>\n        //<p> Bangladesh <img src=\"{{imagePath}}\"/> </p>\n        //<p> {{accident ? accident : 'This is ternary operator'}}.</p>\n        <studentDetails></studentDetails>\n        </div> "
+            template: "<div>\n        <h1>{{ pageHeader }}</h1>\n        \n        <studentDetails></studentDetails>\n        </div> "
         })
     ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
+//<h1>{{ 'Application Heading : ' + appHeading}}</h1>
+//<p> Now I am in {{0*2+2*2*2-0/2}} lecture.</p>
+//<p> My mother name is {{firstName + ' ' + lastName}}.</p>
+//<p> Bangladesh <img src="{{imagePath}}"/> </p>
+//<p> {{accident ? accident : 'This is ternary operator'}}.</p>
 //# sourceMappingURL=app.component.js.map
