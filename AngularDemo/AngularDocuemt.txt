@@ -16,3 +16,14 @@ Not only the code in "app.component.ts" is clean, it is also easier to read and 
 
 what is AppModule
 AppModule is the root module which bootstraps and launches the angular applicaation.
+
+angualr interpolation
+interpolation is all about data-binding.
+1. one way data-binding: from component to view templete.
+2. one way data-binding: from view templete to component.
+3. two way data-binding: from component to view templete and from view templete to component.
+
+ternary operator
+{{pageHeader ? pageHeader : 'No page header'}}
+
+pageHeader : string = null;
