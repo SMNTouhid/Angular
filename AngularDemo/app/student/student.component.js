@@ -18,7 +18,8 @@ var StudentComponent = /** @class */ (function () {
     StudentComponent = __decorate([
         core_1.Component({
             selector: 'studentDetails',
-            templateUrl: 'app/student/student.component.html'
+            templateUrl: 'app/student/student.component.html',
+            styleUrls: ['app/student/student.component.css']
         })
     ], StudentComponent);
     return StudentComponent;

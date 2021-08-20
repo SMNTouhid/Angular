@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AngularDocuemt.txt" />
+    <Content Include="app\student\student.component.css" />
     <Content Include="app\student\student.component.html" />
     <Content Include="Index.html" />
     <Content Include="app\app.component.html" />

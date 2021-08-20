@@ -2,7 +2,8 @@
 
 @Component({
     selector: 'studentDetails',
-    templateUrl: 'app/student/student.component.html'
+    templateUrl: 'app/student/student.component.html',
+    styleUrls: ['app/student/student.component.css']
 })
 
 export class StudentComponent {
