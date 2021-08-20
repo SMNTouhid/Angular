@@ -1,0 +1,18 @@
+What is Component in Angular?
+A component in Angular is a class with a template and a decorator.
+Template: Template defines the user interface. Contais the HTML, directives and data dindings.
+Class: Class cintain the code required for the template.
+Decorator: Decorator adds meta data to the class making it an Angular Component.
+
+
+With the inline template 
+We loose Visual Studio editor intellisense, code-completion and formatting features.
+TypeScript code is not easier to read and understand when it is mixed with the inline template HTML.
+
+
+with an external view template or templateUrl
+We have visual Studio editor intellisense, code-completion and formatting features.
+Not only the code in "app.component.ts" is clean, it is also easier to read and understand.
+
+what is AppModule
+AppModule is the root module which bootstraps and launches the angular applicaation.

@@ -70,9 +70,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AngularDocuemt.txt" />
+    <Content Include="app\student\student.component.html" />
     <Content Include="Index.html" />
     <Content Include="app\app.component.html" />
     <Content Include="readme.txt" />
+    <Content Include="style.css" />
     <Content Include="systemjs.config.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -98,6 +101,7 @@
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.main.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\student\student.component.ts" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
